@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <h2 class="h2" id="joki" >Add event listener</h2>
+    <ul>
+        <li class="john" id="casper">amazon</li>
+        <li class="john" id="casp">prime</li>
+        <li class="john" id="caspw">john</li>
+        <li class="john" id="caspt">kverv</li>
+    </ul>
+    <script>
+        var event = document.getElementById("joki");
+        event.onclick = function(){
+            event.style.color = "red";
+
+        };
+        event.onmouseover = function(){
+            event.style.color = "purple";
+        };
+        event.onmouseout = function(){
+            event.style.color = "black";
+        }
+    </script>
+    
+</body>
+</html>
